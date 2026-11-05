@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#006b5e">
+    <meta name="description" content="ثبت‌نام در تیم‌ساز و پیوستن به جامعه افراد علاقه‌مند به تیم‌سازی و ساخت پروژه.">
+    <title>ثبت‌نام | تیم‌ساز</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="auth-page auth-page--register">
+    <a class="skip-link" href="#main-content">رفتن به محتوای اصلی</a>
+    <header class="site-header">
+        <div class="container site-header__inner">
+            <div class="brand" aria-label="تیم‌ساز">
+                <span class="brand__mark" aria-hidden="true">ت</span>
+                <span class="brand__name">تیم<span>ساز</span></span>
+            </div>
+            <nav class="site-nav" aria-label="منوی اصلی">
+                <a class="site-nav__link" href="contact.html">تماس با ما</a>
+                <a class="site-nav__link" href="login.html">ورود</a>
+                <a class="site-nav__link" href="register.html" aria-current="page">ثبت‌نام</a>
+            </nav>
+        </div>
+    </header>
+    <main class="page-main" id="main-content">
+        <div class="container">
+            <div class="auth-shell">
+                <section class="auth-content" aria-labelledby="register-title">
+                    <div class="auth-content__inner">
+                        <div class="form-card">
+                            <div class="form-card__header">
+                                <p class="eyebrow">اولین قدم برای یک همکاری تازه</p>
+                                <h1 id="register-title">به تیم‌ساز بپیوند!</h1>
+                                <p>پروفایلت رو بساز تا پیدا کردن پروژه و هم‌تیمی رو شروع کنی.</p>
+                            </div>
+                            <form class="form" action="" method="post">
+                                <div class="field-row">
+                                    <div class="field">
+                                        <label class="field__label" for="first-name">نام <span class="required" aria-hidden="true">*</span></label>
+                                        <input class="field__input" id="first-name" name="first_name" type="text" autocomplete="given-name" placeholder="مثلاً علی" minlength="2" maxlength="50" required>
+                                    </div>
+                                    <div class="field">
+                                        <label class="field__label" for="last-name">نام خانوادگی <span class="required" aria-hidden="true">*</span></label>
+                                        <input class="field__input" id="last-name" name="last_name" type="text" autocomplete="family-name" placeholder="مثلاً کلباسی" minlength="2" maxlength="70" required>
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <label class="field__label" for="register-email">ایمیل <span class="required" aria-hidden="true">*</span></label>
+                                    <input class="field__input" id="register-email" name="email" type="email" autocomplete="email" inputmode="email" placeholder="name@example.com" dir="ltr" required>
+                                </div>
+                                <div class="field">
+                                    <label class="field__label" for="expertise">حوزه علاقه‌مندی <span class="required" aria-hidden="true">*</span></label>
+                                    <select class="field__select" id="expertise" name="expertise" required>
+                                        <option value="" selected disabled>حوزه فعالیتت رو انتخاب کن</option>
+                                        <option value="frontend">توسعه فرانت‌اند</option>
+                                        <option value="backend">توسعه بک‌اند</option>
+                                        <option value="design">طراحی رابط و تجربه کاربری</option>
+                                        <option value="product">مدیریت محصول و ایده‌پردازی</option>
+                                        <option value="other">سایر مهارت‌ها</option>
+                                    </select>
+                                </div>
+                                <div class="field-row">
+                                    <div class="field">
+                                        <label class="field__label" for="register-password">رمز عبور <span class="required" aria-hidden="true">*</span></label>
+                                        <input class="field__input" id="register-password" name="password" type="password" autocomplete="new-password" minlength="8" aria-describedby="password-hint" placeholder="حداقل ۸ نویسه" required>
+                                    </div>
+                                    <div class="field">
+                                        <label class="field__label" for="confirm-password">تکرار رمز عبور <span class="required" aria-hidden="true">*</span></label>
+                                        <input class="field__input" id="confirm-password" name="password_confirmation" type="password" autocomplete="new-password" minlength="8" placeholder="تکرار رمز عبور" required>
+                                    </div>
+                                </div>
+                                <p class="field__hint" id="password-hint">رمز عبور باید حداقل ۸ نویسه داشته باشد. تطابق رمزها در نسخه کامل بررسی می‌شود.</p>
+                                <label class="check-row" for="register-consent">
+                                    <input id="register-consent" name="consent" type="checkbox" value="1" required>
+                                    <span>با ثبت‌نام و استفاده مسئولانه از فضای همکاری تیم‌ساز موافقم.</span>
+                                </label>
+                                <button class="button" type="submit">ایجاد حساب کاربری</button>
+                            </form>
+                            <p class="form-bottom">قبلاً ثبت‌نام کردی؟ <a href="login.html">وارد حساب شو</a></p>
+                        </div>
+                    </div>
+                </section>
+                <aside class="auth-aside" aria-label="معرفی مزایای تیم‌ساز">
+                    <div class="auth-aside__heading">
+                        <span class="auth-aside__badge">تیم‌ساز، نقطه شروع همکاری</span>
+                        <h2>برای ساختن چیزی بزرگ، تنها نیستی.</h2>
+                        <p>مهارتت رو معرفی کن، پروژه‌های مرتبط رو پیدا کن و به آدم‌هایی وصل شو که مثل تو اهل ساختن هستن.</p>
+                    </div>
+                    <div class="network" aria-hidden="true">
+                        <div class="network__ring"></div>
+                        <span class="network__node network__node--one">UI</span>
+                        <span class="network__node network__node--two">&lt;/&gt;</span>
+                        <span class="network__node network__node--three">UX</span>
+                        <span class="network__node network__node--four">API</span>
+                        <div class="network__center">
+                            <svg width="55" height="55" viewBox="0 0 56 56" fill="none" aria-hidden="true">
+                                <circle cx="16" cy="17" r="6" fill="currentColor"/>
+                                <circle cx="40" cy="17" r="6" fill="currentColor" opacity=".65"/>
+                                <circle cx="28" cy="40" r="6" fill="currentColor" opacity=".8"/>
+                                <path d="M21 20.5L25 34.8M35 20.5L31 34.8M22 17H34" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="auth-aside__bottom">
+                        <div class="avatar-stack" aria-hidden="true"><span>UX</span><span>FE</span><span>BE</span></div>
+                        <span><strong>آدم مناسب + ایده خوب</strong>، شروع یک پروژه عالیه.</span>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <div class="container site-footer__inner">
+            <p>تیم‌ساز؛ از ایده تا همکاری.</p>
+            <p>۱۴۰۵ © طراحی و توسعه: علی کلباسی</p>
+        </div>
+    </footer>
+</body>
+</html>

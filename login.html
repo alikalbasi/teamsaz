@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#006b5e">
+    <meta name="description" content="ورود به حساب کاربری تیم‌ساز؛ بستری برای یافتن هم‌تیمی و همکاری در پروژه‌های واقعی.">
+    <title>ورود به حساب | تیم‌ساز</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="auth-page auth-page--login">
+    <a class="skip-link" href="#main-content">رفتن به محتوای اصلی</a>
+    <header class="site-header">
+        <div class="container site-header__inner">
+            <div class="brand" aria-label="تیم‌ساز">
+                <span class="brand__mark" aria-hidden="true">ت</span>
+                <span class="brand__name">تیم<span>ساز</span></span>
+            </div>
+            <nav class="site-nav" aria-label="منوی اصلی">
+                <a class="site-nav__link" href="contact.html">تماس با ما</a>
+                <a class="site-nav__link" href="login.html" aria-current="page">ورود</a>
+                <a class="site-nav__link" href="register.html">ثبت‌نام</a>
+            </nav>
+        </div>
+    </header>
+    <main class="page-main" id="main-content">
+        <div class="container">
+            <div class="auth-shell">
+                <section class="auth-content" aria-labelledby="login-title">
+                    <div class="auth-content__inner">
+                        <div class="form-card">
+                            <div class="form-card__header">
+                                <p class="eyebrow">خوش اومدی به تیم‌ساز</p>
+                                <h1 id="login-title">دوباره کنار هم می‌سازیم!</h1>
+                                <p>برای دیدن پروژه‌ها و ادامه همکاری وارد حساب خودت شو.</p>
+                            </div>
+                            <form class="form" action="" method="post">
+                                <div class="field">
+                                    <label class="field__label" for="login-email">ایمیل <span class="required" aria-hidden="true">*</span></label>
+                                    <input class="field__input" id="login-email" name="email" type="email" autocomplete="email" inputmode="email" placeholder="name@example.com" dir="ltr" required>
+                                </div>
+                                <div class="field">
+                                    <label class="field__label" for="login-password">رمز عبور <span class="required" aria-hidden="true">*</span></label>
+                                    <input class="field__input" id="login-password" name="password" type="password" autocomplete="current-password" placeholder="رمز عبور خود را وارد کنید" minlength="8" required>
+                                </div>
+                                <label class="check-row" for="remember-me">
+                                    <input id="remember-me" name="remember" type="checkbox" value="1">
+                                    <span>من را در این دستگاه به خاطر بسپار</span>
+                                </label>
+                                <button class="button" type="submit">ورود به حساب کاربری</button>
+                            </form>
+                            <p class="form-bottom">هنوز حساب نداری؟ <a href="register.html">رایگان ثبت‌نام کن</a></p>
+                        </div>
+                    </div>
+                </section>
+                <aside class="auth-aside" aria-label="معرفی تیم‌ساز">
+                    <div class="auth-aside__heading">
+                        <span class="auth-aside__badge">جایی برای آدم‌های اهل ساختن</span>
+                        <h2>ایده‌های بزرگ، از یک همکاری کوچک شروع می‌شن.</h2>
+                        <p>پروژه‌های جذاب رو کشف کن، آدم‌های هم‌مسیرت رو پیدا کن و کنار هم یک قدم جلوتر برو.</p>
+                    </div>
+                    <div class="network" aria-hidden="true">
+                        <div class="network__ring"></div>
+                        <span class="network__node network__node--one">UI</span>
+                        <span class="network__node network__node--two">&lt;/&gt;</span>
+                        <span class="network__node network__node--three">UX</span>
+                        <span class="network__node network__node--four">API</span>
+                        <div class="network__center">
+                            <svg width="55" height="55" viewBox="0 0 56 56" fill="none" aria-hidden="true">
+                                <circle cx="16" cy="17" r="6" fill="currentColor"/>
+                                <circle cx="40" cy="17" r="6" fill="currentColor" opacity=".65"/>
+                                <circle cx="28" cy="40" r="6" fill="currentColor" opacity=".8"/>
+                                <path d="M21 20.5L25 34.8M35 20.5L31 34.8M22 17H34" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="auth-aside__bottom">
+                        <div class="avatar-stack" aria-hidden="true"><span>UX</span><span>FE</span><span>BE</span></div>
+                        <span><strong>تیم‌های بهتر</strong> با مهارت‌های مکمل ساخته می‌شن.</span>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <div class="container site-footer__inner">
+            <p>تیم‌ساز؛ از ایده تا همکاری.</p>
+            <p>۱۴۰۵ © طراحی و توسعه: علی کلباسی</p>
+        </div>
+    </footer>
+</body>
+</html>
