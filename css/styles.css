@@ -116,9 +116,14 @@ svg {
     display: flex;
     align-items: center;
     gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 .site-nav__link {
+    display: block;
+    white-space: nowrap;
     padding: 9px 15px;
     border-radius: 999px;
     color: var(--md-sys-color-on-surface-variant);
@@ -129,6 +134,11 @@ svg {
 .site-nav__link:hover {
     background: var(--md-sys-color-surface-container);
     color: var(--md-sys-color-on-surface);
+}
+
+.site-header a:focus-visible {
+    outline: 2px solid var(--md-sys-color-primary);
+    outline-offset: 3px;
 }
 
 .site-nav__link[aria-current="page"] {

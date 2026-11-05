@@ -5,12 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="آشنایی با علی کلباسی، بنیان‌گذار و توسعه‌دهنده تیم‌ساز؛ پلتفرمی برای پیدا کردن هم‌تیمی و ساخت پروژه‌های واقعی.">
     <title>تیم ما | تیم‌ساز</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-    <header>
-        <a href="#top" aria-label="تیم‌ساز - ابتدای صفحه">تیم‌ساز</a>
+    <a class="skip-link" href="#top">رفتن به محتوای اصلی</a>
+    <header class="site-header">
+        <div class="container site-header__inner">
+            <a class="brand" href="team.html" aria-label="تیم‌ساز">
+                <span class="brand__mark" aria-hidden="true">ت</span>
+                <span class="brand__name">تیم<span>ساز</span></span>
+            </a>
+            <nav aria-label="منوی اصلی">
+                <ul class="site-nav" role="list">
+                    <li><a class="site-nav__link" href="team.html" aria-current="page">تیم ما</a></li>
+                    <li><a class="site-nav__link" href="contact.html">تماس با ما</a></li>
+                    <li><a class="site-nav__link" href="login.html">ورود</a></li>
+                    <li><a class="site-nav__link" href="register.html">ثبت‌نام</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
+    <main class="container" id="top">
         <nav aria-label="فهرست بخش‌های صفحه تیم ما">
             <ul>
                 <li><a href="#about-team">درباره تیم</a></li>
@@ -19,9 +36,6 @@
                 <li><a href="#values">ارزش‌های ما</a></li>
             </ul>
         </nav>
-    </header>
-
-    <main id="top">
         <section id="about-team" aria-labelledby="page-title">
             <h1 id="page-title">تیم ما</h1>
             <p>
@@ -105,7 +119,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="container site-footer">
         <p>تیم‌ساز؛ جایی برای پیدا کردن هم‌تیمی و ساختن ایده‌ها.</p>
         <p><small>© ۱۴۰۵ تیم‌ساز | طراحی و توسعه: علی کلباسی</small></p>
     </footer>
